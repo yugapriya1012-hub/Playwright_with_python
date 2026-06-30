@@ -15,11 +15,11 @@
 #     page.fill("#fullName", "Desh")
 
 #     # Use a new email every time
-#     page.fill("#email", "desh12345@gmail.com")
+#     page.fill("#email", "d12345@gmail.com")
 
 #     page.fill("#phoneNumber", "6380495230")
-#     page.fill("#password", "Desh@123")
-#     page.fill("#confirmPassword", "Desh@123")
+#     page.fill("#password", "D@123")
+#     page.fill("#confirmPassword", "D@123")
 
 #     # Capture signup alert
 #     def signup_dialog(dialog):
@@ -42,8 +42,8 @@
 #         )
 
 #     # Signin
-#     page.fill("#email", "desh12345@gmail.com")
-#     page.fill("#password", "Desh@123")
+#     page.fill("#email", "d12345@gmail.com")
+#     page.fill("#password", "D@123")
 
 #     page.click("#submitBtn")
 

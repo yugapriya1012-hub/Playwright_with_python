@@ -1,0 +1,61 @@
+# from playwright.sync_api import sync_playwright
+
+# def test_file_upload():
+#     with sync_playwright() as p:
+#         browser=p.chromium.launch(headless=False)
+#         page=browser.new_page()
+
+#         page.goto("https://the-internet.herokuapp.com/upload")
+
+#         # Upload file
+#         page.set_input_files("#file-upload","c:\Users\YugapriyaVijayakumar\Pictures\Screenshots\Screenshot 2026-06-23 115931.png")
+
+#         # click upload button
+#         page.click("#file-submit")
+
+#         page.wait_for_timeout(3000)
+
+#         browser.close()
+
+
+#Upload multiple files
+# from playwright.sync_api import sync_playwright
+
+# def test_file_upload():
+#     with sync_playwright() as p:
+#         browser=p.chromium.launch(headless=False)
+#         page=browser.new_page()
+
+#         page.goto("https://the-internet.herokuapp.com/upload")
+
+#         # Upload file
+#         page.set_input_files("#file-upload",["c:\Users\YugapriyaVijayakumar\Pictures\Screenshots\Screenshot 2026-06-23 115931.png",
+#                                              "c:\Users\YugapriyaVijayakumar\Pictures\Screenshots\Screenshot 2026-06-23 115931.png"])
+
+#         # click upload button
+#         page.click("#file-submit")
+
+#         page.wait_for_timeout(3000)
+
+#         browser.close()
+
+
+#remove the Uploaded file
+# from playwright.sync_api import sync_playwright
+
+# def test_file_upload():
+#     with sync_playwright() as p:
+#         browser=p.chromium.launch(headless=False)
+#         page=browser.new_page()
+
+#         page.goto("https://the-internet.herokuapp.com/upload")
+
+#         # Upload file
+#         page.set_input_files("#file-upload",[])
+
+#         # click upload button
+#         page.click("#file-submit")
+
+#         page.wait_for_timeout(3000)
+
+#         browser.close()
